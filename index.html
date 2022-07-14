@@ -427,41 +427,43 @@
             
                 <form class="modal-form">
                     <h2>Оставьте свои данные, мы вам перезвоним</h2>
-                    <div class="data">
-                        <div class="modal-name">
-                            <label for="modal-name">Имя</label>
-                            <div class="modal-data">
-                                <input class="modal-text" type="text" name="modal-name" id="modal-name">
+                    <fieldset>
+                        <div class="data">
+                            <div class="modal-name">
+                                <label for="modal-name">Имя</label>
+                                <div class="modal-data">
+                                    <input class="modal-text" type="text" name="modal-name" id="modal-name">
+                                    <svg class="icon-percon" width="18px" height="18px">
+                                       <use href="./images/icon.svg#icon-person"> </use>
+                                    </svg>
+                                </div>
+                            </div>
+                        
+                            <div class="modal-name">
+                                <label for="modal-phone">Телефон</label>
+                                <div class="modal-data">
+                                    <input class="modal-text" type="tel" name="modal-phone" id="modal-phone">
+                                    <svg class="icon-percon" width="18px" height="18px">
+                                    <use href="./images/icon.svg#icon-phone"> </use>
+                                 </svg>
+                                </div>
+                            </div>
+                        
+                            <div class="modal-name">
+                                <label for="modal-email">Почта</label>
+                                <div class="modal-data">
+                                    <input class="modal-text" type="email" name="modal-email" id="modal-email">
                                 <svg class="icon-percon" width="18px" height="18px">
-                                   <use href="./images/icon.svg#icon-person"> </use>
-                                </svg>
+                                    <use href="./images/icon.svg#icon-email"> </use>
+                                 </svg>
+                                </div>
                             </div>
-                        </div>
-                    
-                        <div class="modal-name">
-                            <label for="modal-phone">Телефон</label>
-                            <div class="modal-data">
-                                <input class="modal-text" type="tel" name="modal-phone" id="modal-phone">
-                                <svg class="icon-percon" width="18px" height="18px">
-                                <use href="./images/icon.svg#icon-phone"> </use>
-                             </svg>
+                        
+                            <div class="modal-name">
+                                <label for="modal-comint">Комментарий</label>
+                                <textarea class="modal-text" name="modal-comint" id="modal-comint" cols="30" rows="10" placeholder="Введите текст"></textarea>
                             </div>
-                        </div>
-                    
-                        <div class="modal-name">
-                            <label for="modal-email">Почта</label>
-                            <div class="modal-data">
-                                <input class="modal-text" type="email" name="modal-email" id="modal-email">
-                            <svg class="icon-percon" width="18px" height="18px">
-                                <use href="./images/icon.svg#icon-email"> </use>
-                             </svg>
-                            </div>
-                        </div>
-                    
-                        <div class="modal-name">
-                            <label for="modal-comint">Комментарий</label>
-                            <textarea class="modal-text" name="modal-comint" id="modal-comint" cols="30" rows="10" placeholder="Введите текст"></textarea>
-                        </div>
+                    </fieldset>
                     
                     <div class="contract-terms" >
                         <label class="contract" for="contract"> 
