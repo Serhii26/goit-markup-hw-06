@@ -688,6 +688,7 @@ body {
         border-radius: 4px;
         border: 1px solid rgba(255, 255, 255, 0.3);
         background-color: #2F303A;
+        color: #757575;
     }
     .button-mail{
         background: #2196F3;
@@ -753,6 +754,7 @@ body {
         right: 8px;
         top: 8px;
         border-radius: 50%;
+        cursor: pointer;
         border: 1px solid rgba(0, 0, 0, 0.1);
          background-color: var(--fon-color);
          transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1); 
@@ -787,6 +789,7 @@ body {
     }
     .modal-data{
         position: relative;
+        
        
         
     }
@@ -794,10 +797,11 @@ body {
         display: flex;
         width: 100%;
         height: 40px;
-        
+        margin-top: 4px;
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         padding-left: 42px;
+       
         transition: border 500ms cubic-bezier(0.4, 0, 0.2, 1) ;
     }
     .modal-text:focus-visible,
@@ -823,12 +827,14 @@ body {
         text-decoration: underline;
     }
     .contract{
-        display: block;
-        margin-left: 10px;
-    }
-    .contract-terms{
         display: flex;
         justify-content: center;
+        align-items: center;
+        color: #757575;
+       
+    }
+    .contract-terms{
+        
         margin-top: 20px;
         margin-bottom: 30px;
         
@@ -851,19 +857,19 @@ body {
     }
     .contrack-chek{
         display: inline-block;
-        outline: 2px solid #212121;
+        border: 2px solid #212121;
         border-radius: 2px;
         margin-right: 9px;
         transition: 
-         outline 500ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 500ms cubic-bezier(0.4, 0, 0.2, 1),
          background-color 500ms cubic-bezier(0.4, 0, 0.2, 1),
          background-image 500ms cubic-bezier(0.4, 0, 0.2, 1) ;
     }
    
     .chekbox:checked+ .contrack-chek{
         background-image: url(../images/icon_check.svg);
-        background-color: #188CE8;
-        outline: 2px solid #188CE8;
+         background-color: #188CE8; 
+         border: 0px; 
 
     }
     
