@@ -858,23 +858,25 @@ body {
     .button-termss:focus{
         background-color: #188CE8;
     }
+    .chekbox:checked+ .contrack-chek{
+        background-image: url(../images/icon_check.svg);
+        
+         background-color: #188CE8; 
+         border: 0px; 
+
+    }
     .contrack-chek{
         display: inline-block;
         border: 1px solid #212121;
         border-radius: 2px;
         margin-right: 9px;
         transition: 
-        border 500ms cubic-bezier(0.4, 0, 0.2, 1),
+         border 500ms cubic-bezier(0.4, 0, 0.2, 1),
          background-color 500ms cubic-bezier(0.4, 0, 0.2, 1),
-         background-image 500ms cubic-bezier(0.4, 0, 0.2, 1) ;
+         background-image 500ms cubic-bezier(0.4, 0, 0.2, 1) ; 
     }
-   
-    .chekbox:checked+ .contrack-chek{
-        background-image: url(../images/icon_check.svg);
-         background-color: #188CE8; 
-         border: 0px; 
-
-    }
+    
+    
     
     
   
